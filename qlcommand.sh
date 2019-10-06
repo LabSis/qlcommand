@@ -8,7 +8,6 @@ then
     if [ -d /var/lib/gdm3 ]
     then
         chown -R root /var/lib/gdm3
-        reboot -h now
     else
         echo "NO"
     fi
